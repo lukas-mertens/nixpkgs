@@ -123,7 +123,7 @@ in
         NEXUS_USER = cfg.user;
         NEXUS_HOME = cfg.home;
 
-        INSTALL4J_JAVA_HOME = cfg.jdkPackage;
+        APP_JAVA_HOME = cfg.jdkPackage;
         VM_OPTS_FILE = pkgs.writeText "nexus.vmoptions" cfg.jvmOpts;
       };
 
